@@ -237,7 +237,7 @@ img {
   margin-bottom: 8px;
 }
 
-.advantages-title {
+.visually-hidden {
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -793,9 +793,22 @@ img {
   border-color: var(--color-action);
 }
 
-.modal-form-check {
+
+.modal-form-check-desc::before {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  border: 1.25px solid #2e2f42;
+  border-radius: 2px;
+  cursor: pointer;
 }
-.modal-form-check-desc {
+
+.modal-form-check:checked + .modal-form-check-desc::before {
+  background-color: var(--color-button-action);
+  background-image: url(../images/vector.png);
+  background-repeat: no-repeat;
 }
 .link-privacy-policy {
 }
