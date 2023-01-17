@@ -157,8 +157,7 @@ img {
   gap: 10px;
   padding-top: 24px;
   padding-bottom: 24px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-contacts:hover,
@@ -427,8 +426,7 @@ img {
   justify-content: center;
   align-items: center;
   fill: #8e8f99;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color, fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list-link:hover,
@@ -475,7 +473,7 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 8px 16px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: box-shadow, 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -655,8 +653,7 @@ img {
   width: 100%;
   height: 100%;
   z-index: 100;
-  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: visibility, opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -802,6 +799,8 @@ img {
   letter-spacing: 0.04em;
   color: #757575;
   margin-bottom: 8px;
+  transition: background-color,
+    background-imag 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-check-desc::before {
@@ -821,7 +820,7 @@ img {
   background-image: url(../images/vector.png);
   background-repeat: no-repeat;
   background-position: center;
-  transition: background-imag 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-imag 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .link-privacy-policy {
   color: var(--color-action);
