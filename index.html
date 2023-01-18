@@ -433,16 +433,23 @@
           </div>
           <form class="footer-form-subscribe">
             <p class="footer-form-text">Subscribe</p>
-            <input
-              class="footer-form-input"
-              placeholder="E-mail"
-              type="email"
-              name="user-mail"
-              required
-              pattern="^[a-zA-Z]+$"
-              minlength="2"
-            />
-            <button type="submit" class="footer-form-button">Subscribe</button>
+            <div class="footer-form-container">
+              <input
+                class="footer-form-input"
+                placeholder="E-mail"
+                type="email"
+                name="user-mail"
+                required
+                pattern="^[a-zA-Z]+$"
+                minlength="2"
+              />
+              <button type="submit" class="footer-form-btn">
+                Subscribe
+                <svg class="footer-form-icon" width="24" height="24">
+                  <use href="./images/icons.svg.svg#icon-Subscribe"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
