@@ -671,6 +671,10 @@ img {
   color: var(--color-third);
 }
 
+.footer-form-input:focus {
+  outline: none;
+}
+
 .footer-form-input::placeholder {
   font-weight: 400;
   font-size: 12px;
