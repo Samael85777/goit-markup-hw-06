@@ -739,8 +739,7 @@ img {
 
 .modal {
   position: absolute;
-  width: 408px;
-  height: 576px;
+  height: 584px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -748,7 +747,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding: 72px 24px 24px 24px;
+  padding: 72px 24px 24px;
 }
 .modal-button {
   position: absolute;
@@ -798,7 +797,7 @@ img {
 }
 
 .moda-form-field {
-  margin-bottom: 8px;
+  margin-bottom: ;
 }
 .modal-form-input-desc {
   display: block;
@@ -873,7 +872,8 @@ img {
   line-height: 1.33px;
   letter-spacing: 0.04em;
   color: #757575;
-  margin-bottom: 8px;
+  margin-top: 16px;
+  margin-bottom: 24px;
   transition: background-color,
     background-imag 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -895,7 +895,7 @@ img {
   background-image: url(../images/vector.png);
   background-repeat: no-repeat;
   background-position: center;
-  /* transition: background-imag 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  border-color: var(--color-button-action);
 }
 .link-privacy-policy {
   color: var(--color-action);
@@ -914,8 +914,8 @@ img {
   display: block;
   margin: 0 auto;
   border: none;
-  transition: box-shadow, background-color,
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-submit-btn:hover,
