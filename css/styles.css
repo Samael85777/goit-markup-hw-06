@@ -735,6 +735,7 @@ img {
 
 .modal {
   position: absolute;
+  width: 408px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
